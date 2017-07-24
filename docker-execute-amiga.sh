@@ -43,7 +43,8 @@ docker run -it \
   -v /var/lib/dbus:/var/lib/dbus \
   -v ~/.pulse:/home/$(whoami)/.pulse \
   jamesnetherton/fs-uae \
-  --amiga_model=A1200 \
+  --amiga_model=A4000 \
+  --fast_memory=8192 \
   --hard_drive_0=/amiga \
   > /dev/null
 
